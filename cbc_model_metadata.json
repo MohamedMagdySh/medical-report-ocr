@@ -1,0 +1,34 @@
+{
+  "features": [
+    "WBC",
+    "LYMp",
+    "NEUTp",
+    "LYMn",
+    "NEUTn",
+    "RBC",
+    "HGB",
+    "HCT",
+    "MCV",
+    "MCH",
+    "MCHC",
+    "PLT",
+    "PDW",
+    "PCT"
+  ],
+  "classes": [
+    "Healthy",
+    "Iron deficiency anemia",
+    "Leukemia",
+    "Leukemia with thrombocytopenia",
+    "Macrocytic anemia",
+    "Normocytic hypochromic anemia",
+    "Normocytic normochromic anemia",
+    "Other microcytic anemia",
+    "Thrombocytopenia"
+  ],
+  "eval_accuracy": 0.9844,
+  "n_total_samples": 1281,
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 200,
+  "description": "CBC blood test multi-class diagnosis classifier"
+}
